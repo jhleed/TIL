@@ -15,6 +15,14 @@
         <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
