@@ -2,6 +2,7 @@ package stream;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.OptionalDouble;
 
 /**
  * Created by james on 2017. 6. 12..
@@ -27,6 +28,15 @@ public class StreamTutorial {
         double avg = (double) sum / count;
 
         return avg;
+    }
+
+    public double getAvgUsingStream(){
+        setEmployees();
+        OptionalDouble average = employees.stream().
+                filter(x -> x.getSalary() > 150).
+                mapToInt(x -> x.getSalary()).average();
+
+        return average.getAsDouble();
     }
 
     private void setEmployees(){
