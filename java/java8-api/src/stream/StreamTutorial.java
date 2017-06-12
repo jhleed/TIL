@@ -9,12 +9,9 @@ import java.util.OptionalDouble;
  */
 public class StreamTutorial {
 
-    List<Employee> employees;
+    private List<Employee> employees;
 
     public double getAvgOldVersion(){
-
-        setEmployees();
-
         int sum =0;
         int count =0;
 
@@ -25,26 +22,24 @@ public class StreamTutorial {
             }
         }
 
-        double avg = (double) sum / count;
-
-        return avg;
+        return (double) sum / count;
     }
 
     public double getAvgUsingStream(){
-        setEmployees();
         OptionalDouble average = employees.stream()
-                .filter(x -> x.getSalary() > 150)
+                .filter(employee -> (employee.getSalary() > 150))
                 .mapToInt(x -> x.getSalary())
                 .average();
 
         return average.getAsDouble();
     }
 
-    private void setEmployees(){
+
+    public void setEmployees(int... values){
         this.employees = new ArrayList<>();
-        employees.add(new Employee(100));
-        employees.add(new Employee(200));
-        employees.add(new Employee(300));
+        for (int value : values){
+            employees.add(new Employee(value));
+        }
     }
 
 }
