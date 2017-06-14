@@ -2,14 +2,12 @@
  * Created by james on 2017. 6. 14..
  */
 
-var express = require("express");
-var app = express();
-var port = 3000;
+let express = require("express");
+let app = express();
+let port = 3000;
 
-app.get("/", function (req, res) {
+app.get("/", (req, res) =>{
     res.end("Hello world");
 });
 
-app.listen(port, function () {
-    console.log("The server is running, port is %s", port);
-});
+app.listen(port, () => console.log("The server is running, port is %s", port));
