@@ -6,3 +6,5 @@
 .idea
 *.iml
 target
+node_modules
+bower_components
