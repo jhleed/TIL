@@ -26,12 +26,10 @@ public class StreamTutorial {
     }
 
     public double getAvgUsingStream(){
-        OptionalDouble average = employees.stream()
+        return employees.stream()
                 .filter(employee -> (employee.getSalary() > 150))
-                .mapToInt(x -> x.getSalary())
-                .average();
-
-        return average.getAsDouble();
+                .mapToInt(Employee::getSalary)
+                .average().getAsDouble();
     }
 
 
