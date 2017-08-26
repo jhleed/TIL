@@ -10,8 +10,7 @@
 
 **Replication Set**
 - 참고
-	- https://unagi44.wordpress.com/2015/09/10/mongodb-replica-set%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1-3/
-- 왜 필요한지?
+	- [Developer Lee 님의 블로그](https://unagi44.wordpress.com/2015/09/10/mongodb-replica-set%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1-3/)
 
 #### Spring Boot
 Spring Boot와 JRebel 연동이 제대로 안되는 현상을 [해결](http://jhleed.tistory.com/96)하였다.
