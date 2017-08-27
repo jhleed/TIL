@@ -4,13 +4,25 @@
 
 ---
 
-### 17.08.25 (월)
+### 17.08.26 (토)
+[개발자커리어 Young Community 연합세미나](https://onoffmix.com/event/108861)에 참여하였다. 
+개발자커리어 Young Community 연합세미나
+
+- 초반 강의 대부분은 주로 대학생들, 혹은 1~2년 차를 대상으로 해서 크게 와닿는 부분은 없었다.
+- 그렇지만 선배 개발자분들의 이력서 피드백이라든지 사회를 보시는 분의 피드백은 큰 도움이 되었다. 이력서를 수정하고 블로그를 재정비해야겠다.
+
+강의를 마치고 강남에서 열리는 IT인들의 치맥 파티에 갔다. 원래는 정보라든지 이런 것을 얻으려고 갔는데 그냥 치맥만 실컷 먹고 돌아왔다 (..)
+
+---
+
+### 17.08.25 (금)
 
 #### MongoDB 
 
 **Replication Set**
 - 참고
-	- [Developer Lee 님의 블로그](https://unagi44.wordpress.com/2015/09/10/mongodb-replica-set%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1-3/)
+	- [mongodb-replica-set의-필요성-3](https://unagi44.wordpress.com/2015/09/10/mongodb-replica-set%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1-3/)
+- 왜 필요한지?
 
 #### Spring Boot
 Spring Boot와 JRebel 연동이 제대로 안되는 현상을 [해결](http://jhleed.tistory.com/96)하였다.
