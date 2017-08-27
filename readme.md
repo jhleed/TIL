@@ -32,20 +32,14 @@
 ### 17.08.25 (금)
 
 #### MongoDB 
-
-**Replication Set**
-- 참고
-	- [mongodb-replica-set의-필요성-3](https://unagi44.wordpress.com/2015/09/10/mongodb-replica-set%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1-3/
-- 왜 필요한지?
+Replica set에 대한 개념을 알아보았습니다. [이곳](https://unagi44.wordpress.com/2015/09/10/mongodb-replica-set%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1-3/)에 설명이 참 잘 되어 있었습니다.
 
 #### Spring Boot
-Spring Boot와 JRebel 연동이 제대로 안되는 현상을 [해결](http://jhleed.tistory.com/96)하였다.
+Spring Boot와 JRebel 연동이 제대로 안되는 현상을 [해결](http://jhleed.tistory.com/96)하였습니다.
 
-[IntelliJ에서 SpringBoot 웹 프로젝트 생성하기](http://blog.saltfactory.net/creating-springboot-project-in-intellij/). 
-IntelliJ는 생성부터 기본적으로 필요한 플러그인 (롬복 등..)을 한번에 가져와줍니다. (갓텔리제이..)
+[IntelliJ에서 Spring Boot를 생성하는 기능](http://blog.saltfactory.net/creating-springboot-project-in-intellij/)이 참 잘 되어 있다고 생각했습니다. 
+생성부터 기본적으로 필요한 플러그인 (롬복 등..)을 한번에 가져와줍니다.
 
-Spring Boot의 생산성에 대해서 체험했습니다. 
-기본적인 Bean 설정등을 전부 잡아줍니다. 그리고 어느정도 설정을 해줘야 하는 속성들은 `application.property`에서 값만 넣어주면 자동으로 완성이 되다니 이 얼마나 쩌는 생산성인지!
-게다가 `IntelliJ`와 같은 Idea를 쓰면 자동완성까지 지원해줍니다.
-
-토이 프로젝트라던지, 외주를 처리할때는 스프링 부트를 쓰면 구현에 드는 시간이 확 줄어들 것 같습니다.
+Spring Boot의 생산성을 직접 체험했습니다. 
+게다가 `IntelliJ`와 같은 Idea를 쓰면 `application.property`에 자동완성까지 지원해줍니다.
+토이 프로젝트라던지, 외주를 처리할때는 스프링 부트를 쓰면 **구현에 드는 시간이 확 줄어들 것 같습니다.**
