@@ -3,6 +3,17 @@
 이전까지는 기술을 카테고리별로  정리하였으나 앞으로 이는 [블로그](http://jhleed.tistory.com/)에 남기기로 하고 [초보몽키님의 6개월간의 TIL 회고](https://wayhome25.github.io/til/2017/08/14/TIL-for-6-months/)를 참고하여 개발과 관련하여 학습한 내역을 일기 형식으로 적기로 하였습니다.  
 
 ---
+### 17.08.28 (월)
+
+[Polymer의 style 부분을 학습하고 정리하였습니다.](https://github.com/jhleed/study-polymer/tree/master/style)
+
+개인적으로 사용하는 REST API 서버의 프레임워크를 spring에서 spring boot로 변경하였습니다.
+별다른 충돌 없이 매끄럽게 변경되었습니다. git에서 ignoring 하는 JRebel의 rebel.xml 부분만 조금 신경을 썼으면 완벽했을 것 같습니다.
+
+대학을 졸업하고 첫 직장에서 개발을 처음 알려주신 [넷스루의 오재훈 개발 이사님](https://www.facebook.com/jaehoon.oh.503)과 저녁을 먹었습니다.
+테스트와 소프트웨어의 품질, 개발 문화에 관한 이야기를 나누었고 아주 재밌었습니다.
+
+---
 ### 17.08.27 (일)
 
 어제 개발자커리어 세미나를 다녀오고 나서 github, blog를 재정비해야 되겠다고 생각했습니다.
