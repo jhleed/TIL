@@ -3,15 +3,20 @@
 이전까지는 기술을 카테고리별로  정리하였으나 앞으로 이는 [블로그](http://jhleed.tistory.com/)에 남기기로 하고 [초보몽키님의 6개월간의 TIL 회고](https://wayhome25.github.io/til/2017/08/14/TIL-for-6-months/)를 참고하여 개발과 관련하여 학습한 내역을 일기 형식으로 적기로 하였습니다.  
 
 ---
+### 17.08.29 (화)
+- 크리스티나 초도로우의 `MongoDB 완벽 가이드`라는 책을 참고하여 MongoDB Replication Set 을 공부하고 있습니다. 간단한 Example을 만드는것까지는 간단했는데 실제로 구상하려니까 고려사항이 많은 것 같습니다.
+- 개발자커리어 Young Community 연합세미나 이력서 피드백을 정리하여 [블로그에 포스팅](http://jhleed.tistory.com/97)하고 페이스북에 공유했는데 생각했던 것보다 많은 분들(1000분)이 블로그를 방문해주셨습니다.  
+
+---
 ### 17.08.28 (월)
 
 [Polymer의 style 부분을 학습하고 정리하였습니다.](https://github.com/jhleed/study-polymer/tree/master/style)
 
 개인적으로 사용하는 REST API 서버의 프레임워크를 spring에서 spring boot로 변경하였습니다.
-별다른 충돌 없이 매끄럽게 변경되었습니다. git에서 ignoring 하는 JRebel의 rebel.xml 부분만 조금 신경을 썼으면 완벽했을 것 같습니다.
+별다른 충돌 없이 매끄럽게 변경되었습니다. git에서 ignoring하는 JRebel의 rebel.xml 부분만 조금 신경썼으면 완벽했을 것 같습니다.
 
-대학을 졸업하고 첫 직장에서 개발을 처음 알려주신 [넷스루의 오재훈 개발 이사님](https://www.facebook.com/jaehoon.oh.503)과 저녁을 먹었습니다.
-테스트와 소프트웨어의 품질, 개발 문화에 관한 이야기를 나누었고 아주 재밌었습니다.
+대학을 졸업하고 첫 직장에서 개발을 처음 알려주신 [넷스루의 오재훈 개발이사님](https://www.facebook.com/jaehoon.oh.503)과 저녁을 먹었습니다.
+테스트와 소프트웨어의 품질, 개발 문화에 대한 이야기를 나누었고 아주 재밌었습니다.
 
 ---
 ### 17.08.27 (일)
