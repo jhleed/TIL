@@ -4,8 +4,13 @@
 
 ---
 ### 17.08.29 (화)
-- 크리스티나 초도로우의 `MongoDB 완벽 가이드`라는 책을 참고하여 MongoDB Replication Set 을 공부하고 있습니다. 간단한 Example을 만드는것까지는 간단했는데 실제로 구상하려니까 고려사항이 많은 것 같습니다.
-- 개발자커리어 Young Community 연합세미나 이력서 피드백을 정리하여 [블로그에 포스팅](http://jhleed.tistory.com/97)하고 페이스북에 공유했는데 생각했던 것보다 많은 분들(1000분)이 블로그를 방문해주셨습니다.  
+- 크리스티나 초도로우의 `MongoDB 완벽 가이드`라는 책을 참고하여 MongoDB Replication Set을 공부하고 있습니다. 간단한 Example을 만드는 것까지는 간단했는데 실제로 구상하려니까 고려사항이 많은 것 같습니다.
+- 개발자커리어 Young Community 연합세미나 이력서 피드백을 정리하여 [블로그에 포스팅](http://jhleed.tistory.com/97)하고 페이스북에 공유했는데 생각했던 것보다 많은 분들(1000분)이 블로그를 방문해주셨습니다. 
+- 회사에서 진행하고 있는 프로젝트의 Back end 로 NodeJs를 쓸지, Spring boot를 쓸지 고민이 됩니다. (Front end는 Polymer 라이브러리를 사용)
+	- 가벼운 경량 백 엔드로 NodeJs 를 사용하고 싶으나 NodeJs 에 익숙하지 않음
+	- 차라리 익숙한 Spring을 쓰는 것이 생산성이 나을 듯한데 그나마 그중 가볍게 사용할 수 있는 Spring Boot을 사용하려고 함
+	- 고민 1 : View 단은 JSP를 사용하게 될 듯한데 Web Component Library인 Polymer와 올바른 궁합인가? (HTML import)
+	- 고민 2 : WAS는 정적 자원을 제공하는데 최적화되어있지 않다. 이 문제는 어떻게 해결해야 하는가.
 
 ---
 ### 17.08.28 (월)
