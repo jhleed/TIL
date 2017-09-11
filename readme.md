@@ -1,7 +1,20 @@
 # Today I Learned (TIL)
 
 이전까지는 기술을 카테고리별로  정리하였으나 앞으로 이는 [블로그](http://jhleed.tistory.com/)에 남기기로 하고 [초보몽키님의 6개월간의 TIL 회고](https://wayhome25.github.io/til/2017/08/14/TIL-for-6-months/)를 참고하여 개발과 관련하여 학습한 내역을 일기 형식으로 적기로 하였습니다.  
+
+### History
+- [2017년 9월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-09월)
+- [2017년 8월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-08월)
+
+---
 ## 2017년 09월
+
+### 17.09.11 (월)
+**MongoDB**
+- Replica Set에 인증 처리를 하려고 합니다.  Replica Set을 설정할 수 있는 권한을 설정하려면 `cluster admin` 정보가 필요하다는 것을 알게 되었습니다.
+- 이전에는 데이터가 꼬이면 데이터가 저장된 디렉토리를 날려버리는 방식으로 (데이터가 얼마 없는 개발 중인 서버라서 가능) 해결을 했었는데 이는 `Wiretiger.wt` 파일도 같이 날려버리므로 문제를 야기할 수 있다는 것을 알았습니다.
+
+---
 
 ### 17.09.07 (목)
 
