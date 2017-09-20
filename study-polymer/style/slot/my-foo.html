@@ -1,0 +1,48 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="my-foo">
+    <template>
+        <style>
+            ::slotted(.slot-bar) {
+                color: blue;
+            }
+        </style>
+        <h1>It's foo</h1>
+        <p>this is slot bar ->
+            <slot name="slot-bar"></slot>
+        </p>
+        <p>this is slot foo ->
+            <slot name="slot-foo"></slot>
+        </p>
+        <p>this is slot baz
+            <slot name="slot-baz"></slot>
+        </p>
+    </template>
+
+    <script>
+        (function () {
+            let _this;
+
+            class Foo extends Polymer.Element {
+                static get is() {
+                    return 'my-foo';
+                }
+
+                static get properties() {
+                    return {};
+                }
+
+                constructor() {
+                    super();
+                    _this = this;
+                }
+
+                ready() {
+                    super.ready();
+                }
+            }
+
+            window.customElements.define(Foo.is, Foo);
+        })();
+    </script>
+</dom-module>

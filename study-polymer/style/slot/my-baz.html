@@ -1,0 +1,39 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="my-baz">
+    <template>
+        <style></style>
+        <h3>friends! i am baz</h3>
+    </template>
+
+    <script>
+        (function () {
+            let _this;
+
+            class Baz extends Polymer.Element {
+                static get is() {
+                    return 'my-baz';
+                }
+
+                static get properties() {
+                    return {};
+                }
+
+                constructor() {
+                    super();
+                    _this = this;
+                }
+
+                ready() {
+                    super.ready();
+                }
+
+                say() {
+                    console.log("hello, i am bar!");
+                }
+            }
+
+            window.customElements.define(Baz.is, Baz);
+        })();
+    </script>
+</dom-module>

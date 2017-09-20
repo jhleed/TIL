@@ -1,0 +1,21 @@
+{
+  "name": "study-polymer",
+  "homepage": "https://github.com/jhleed/study-polymer",
+  "authors": [
+    "JongHo Lee <jhleed@naver.com>"
+  ],
+  "description": "study all about polymer",
+  "main": "",
+  "license": "MIT",
+  "dependencies" : {
+    "webcomponentsjs" : "webcomponents/webcomponentsjs",
+    "polymer" : "Polymer/polymer"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

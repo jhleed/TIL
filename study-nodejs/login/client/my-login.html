@@ -1,0 +1,78 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+<link rel="import" href="bower_components/iron-input/iron-input.html">
+<link rel="import" href="bower_components/paper-input/paper-input.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="my-login">
+    <template>
+        <style></style>
+        <h2>로그인 모듈</h2>
+        <iron-ajax id="ajax"></iron-ajax>
+        <div>
+            <paper-input label="email" type="email" value="{{email}}"></paper-input>
+        </div>
+        <div>
+            <paper-input label="password" type="password" value="{{password}}"></paper-input>
+        </div>
+        <div>
+            <paper-button on-click="doLogin">로그인</paper-button>
+        </div>
+    </template>
+
+    <script>
+        (function () {
+            let _this;
+
+            class MyLogin extends Polymer.Element {
+                static get is() {
+                    return 'my-login';
+                }
+
+                static get properties() {
+                    return {
+                        email: {
+                            type: String
+                        },
+                        password: {
+                            type: String
+                        }
+                    };
+                }
+
+                doLogin() {
+                    //TODO 로그인
+                    let ajax = _this.$.ajax;
+                    ajax.url = "/login";
+                    ajax.method = "post";
+                    ajax.body = JSON.stringify({
+                        email: _this.email,
+                        password: _this.password
+                    });
+                    ajax.contentType = "application/json";
+                    ajax.generateRequest().completes.then(function (a) {
+                        let response = a.response;
+                        if (response.success) {
+                            //TODO 로그인 성공시 다른 페이지로 이동한다.
+                            console.log("성공", response.result);
+                        } else {
+                            console.error("실패", response.result);
+                        }
+                    });
+                }
+
+                constructor() {
+                    super();
+                    _this = this;
+                }
+
+                ready() {
+                    super.ready();
+
+                }
+            }
+
+            window.customElements.define(MyLogin.is, MyLogin);
+        })();
+    </script>
+</dom-module>

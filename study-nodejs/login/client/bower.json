@@ -1,0 +1,23 @@
+{
+  "name": "login-client",
+  "homepage": "https://github.com/jhleed/study-nodejs",
+  "authors": [
+    "JongHo Lee <jhleed@radnet.kr>"
+  ],
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "polymer": "Polymer/polymer",
+    "paper-input": "PolymerElements/paper-input",
+    "paper-button": "PolymerElements/paper-button",
+    "iron-ajax": "PolymerElements/iron-ajax#^2.0.5"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
