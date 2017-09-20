@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "rules": {
+    "no-var": 2,
+    "no-console": 0,
+    "comma-dangle": 0,
+    "require-jsdoc": 0,
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  }
+}
