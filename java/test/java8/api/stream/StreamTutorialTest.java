@@ -1,17 +1,11 @@
-package stream;
+package java8.api.stream;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.*;
 
-
-/**
- * Created by james on 2017. 6. 12..
- */
 public class StreamTutorialTest {
-
-
     private StreamTutorial tutorial;
 
     @Before
@@ -22,12 +16,12 @@ public class StreamTutorialTest {
     @Test
     public void getAvgUsingStream() throws Exception {
         tutorial.setEmployees(100,200,300);
-        assertEquals(250.0, tutorial.getAvgUsingStream());
+        assertTrue(250.0 == tutorial.getAvgUsingStream());
     }
 
     @Test
     public void getAvgOldVersion() throws Exception {
         tutorial.setEmployees(100,200,300);
-        assertEquals(250.0, tutorial.getAvgOldVersion());
+        assertTrue(250.0 == tutorial.getAvgOldVersion());
     }
 }
