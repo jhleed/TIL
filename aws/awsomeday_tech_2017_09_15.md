@@ -2,13 +2,15 @@
 
 @(AWS)
 
-
+[AWSome Day - Tech | 2017년 9월 15일](https://aws.amazon.com/ko/events/awsome-day/tech/?trkCampaign=kr-awsomeday-biz-201709&trk=lp-social-opentutorials)를 다녀와서 정리
 
 ## Contents
 
 - AWS 보안 및 접근제어 관리 서비스 - IAM
 - AWS의 관리형 서비스 및 데이터베이스 서비스 - RDS ,DynamoDB
 - 확장성 있는 아키텍처 구축을 위한 AWS 서비스
+
+![Alt text](./1505891720419.png)
 
 ### AWS 보안 및 접근제어 관리 서비스 - IAM
 
@@ -29,6 +31,8 @@ AWS를 안전하게 사용하기 위한 인증/허가 시스템
 - 
 
 Healthhub에서 나의 IAM 확인. Root Account 관련 빼고는 다 접근할 수 있음
+
+![Alt text](./1505893442156.png)
 
 MFA(Multi Factor Authentication)
 
