@@ -7,8 +7,6 @@ import java.lang.reflect.Field;
  */
 public class MyContextContainer {
 
-    public MyContextContainer(){}
-
     /**
      * 객체를 반환하기 전 어노테이션을 적용합니다.
      * @param instance
