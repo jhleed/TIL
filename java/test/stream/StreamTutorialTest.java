@@ -1,4 +1,4 @@
-package java8.api.stream;
+package stream;
 
 import org.junit.Before;
 import org.junit.Test;
