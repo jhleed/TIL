@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>file upload</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+<body>
+<form id="form1">
+    <p>업로드 폼</p>
+    <input type="file" id="btn1" multiple>
+</form>
+
+<form id="form2">
+    <p>복사 대상 폼</p>
+    <input type="file" id="btn2" multiple>
+</form>
+<script>
+    $(function () {
+        $("#btn1").on("change", function () {
+            let files = this.files;
+            $("#btn2")[0].files = files
+        });
+    })
+</script>
+</body>
+</html>
