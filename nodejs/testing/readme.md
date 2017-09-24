@@ -11,6 +11,8 @@
 
 오.. `IntelliJ`에서는 mocha가 지원이 된다. 단, `NodeJS` 플러그인이 설치되어 있어야 하고 상용 버전이어야 한다. 
 
+mocha에는 `TDD` style과 `BDD` style이 있는데 개념적인 차이 외에 어떤 기능적인 차이가 있는지 잘 모르겠다.
+
 ### Reference
 
 - [Node.js 로 TDD 를 도전해보자](http://seokjun.kr/node-js-tdd/)
