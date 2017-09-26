@@ -12,6 +12,25 @@
 오.. `IntelliJ`에서는 mocha가 지원이 된다. 단, `NodeJS` 플러그인이 설치되어 있어야 하고 상용 버전이어야 한다. 
 
 mocha에는 `TDD` style과 `BDD` style이 있는데 개념적인 차이 외에 어떤 기능적인 차이가 있는지 잘 모르겠다.
+ 
+ 
+### 파일 이름
+
+- 파일 이름을 filename-test.js 형태로 지으면 IDE에서 바로가기 기능이 지원되는 것 같다.
+- 정확히 파일 이름을 어떻게 해야 하는지 알아보자.
+
+
+### 버그
+
+- IntelliJ에서 테스트를 하려고 하면 가끔씩 아래와 같은 버그가 뜬다. 껏다가 키면 제대로 동작할 때도 있고.. 이상하다.
+- 역시 javascript라서 IDE에서 지원이 제대로 안 되는 건가..
+
+```$xslt
+suite('TDD Style', function() {
+^
+
+ReferenceError: suite is not defined
+```
 
 ### Reference
 
