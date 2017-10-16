@@ -6,6 +6,14 @@
 - [2017년 9월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-09월)
 - [2017년 8월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-08월)
 
+## 2017년 10월
+
+### ~ 17.10.17
+
+- REST API를 RESTful하게 쓰고 있는가에 대하여 반성하게 하는 글을 보았습니다. [그런 REST API로 괜찮은가](http://slides.com/eungjun/rest#/)
+ - 요점은 로이 필딩이 제시한 REST한 조건을 만족시켜서 제대로 RESTful한 API를 만들던지 혹은 API의 이름을 바꾸라는 것입니다. (HTTP API? Web API?) 
+- 여유롭지 않은 재정상황이었지만 아이패드 + 애플펜슬 세트를 구매하였습니다. 생산성을 올리는 일에는 아낌없이 투자하려고 합니다. 
+
 ---
 ## 2017년 09월
 
