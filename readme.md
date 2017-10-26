@@ -12,6 +12,8 @@
 
 ### ~ 17.10.26
 
+- `신림 프로그래머` 스터디 그룹에서 `Java9`와 `Spring5`를 공부하였고 [회고록](https://github.com/jhleed/study-java9-and-spring5)을 작성하였습니다. 
+	- [Reactive Programming with JDK 9 Flow API](http://jhleed.tistory.com/99)문서도 번역해 보았습니다.
 - 별 생각없이 쓰고 있던 `Logging`에 대해서 왜 쓰는지, 어떤 것이 좋은지를 생각해보는 시간을 가졌습니다. 
  - `System.out.println`을 썼을때의 단점과 로깅 라이브러리인 `log4j` 여기서 더 진보한 `logback`과 로깅 라이브러리들을 쉽게 갈아끼우기 위한 (파사드, facade 패턴) `slf4j` 등..
 - 처음으로 외주를 시작하였습니다. 그리고 개인적으로 좋은 팀도 생겼습니다. 금액이 많고 적고를 떠나서 회사에서 주는 월급 외의 나의 능력으로 버는 수입이 추가되었다는 것에 의미를 두어보려고 합니다.
