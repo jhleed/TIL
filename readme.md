@@ -3,8 +3,24 @@
 이전까지는 기술을 카테고리별로  정리하였으나 앞으로 이는 [블로그](http://jhleed.tistory.com/)에 남기기로 하고 [초보몽키님의 6개월간의 TIL 회고](https://wayhome25.github.io/til/2017/08/14/TIL-for-6-months/)를 참고하여 개발과 관련하여 학습한 내역을 일기 형식으로 적기로 하였습니다.  
 
 ### History
+
+- [2017년 10월](https://github.com/jhleed/TIL/tree/proto#2017년-10월)
 - [2017년 9월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-09월)
 - [2017년 8월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-08월)
+
+## 2017년 10월
+
+### ~ 17.10.26
+
+- 별 생각없이 쓰고 있던 `Logging`에 대해서 왜 쓰는지, 어떤 것이 좋은지를 생각해보는 시간을 가졌습니다. 
+ - `System.out.println`을 썼을때의 단점과 로깅 라이브러리인 `log4j` 여기서 더 진보한 `logback`과 로깅 라이브러리들을 쉽게 갈아끼우기 위한 (파사드, facade 패턴) `slf4j` 등..
+- 처음으로 외주를 시작하였습니다. 그리고 개인적으로 좋은 팀도 생겼습니다. 금액이 많고 적고를 떠나서 회사에서 주는 월급 외의 나의 능력으로 버는 수입이 추가되었다는 것에 의미를 두어보려고 합니다.
+
+### ~ 17.10.17
+
+- REST API를 RESTful하게 쓰고 있는가에 대하여 반성하게 하는 글을 보았습니다. [그런 REST API로 괜찮은가](http://slides.com/eungjun/rest#/)
+ - 요점은 로이 필딩이 제시한 REST한 조건을 만족시켜서 제대로 RESTful한 API를 만들던지 혹은 API의 이름을 바꾸라는 것입니다. (HTTP API? Web API?) 
+- 여유롭지 않은 재정상황이었지만 아이패드 + 애플펜슬 세트를 구매하였습니다. 생산성을 올리는 일에는 아낌없이 투자하려고 합니다. 
 
 ---
 ## 2017년 09월
