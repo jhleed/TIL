@@ -3,6 +3,8 @@
 이전까지는 기술을 카테고리별로  정리하였으나 앞으로 이는 [블로그](http://jhleed.tistory.com/)에 남기기로 하고 [초보몽키님의 6개월간의 TIL 회고](https://wayhome25.github.io/til/2017/08/14/TIL-for-6-months/)를 참고하여 개발과 관련하여 학습한 내역을 일기 형식으로 적기로 하였습니다.  
 
 ### History
+
+- [2017년 10월](https://github.com/jhleed/TIL/tree/proto#2017년-10월)
 - [2017년 9월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-09월)
 - [2017년 8월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-08월)
 
