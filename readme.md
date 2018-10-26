@@ -6,11 +6,11 @@
 
 ### History
 
-- [2018년 10월](https://github.com/jhleed/TIL/tree/proto#2018년-10월)
-- [2018년 9월](https://github.com/jhleed/TIL/tree/proto#2018년-9월)
-- [2017년 10월](https://github.com/jhleed/TIL/tree/proto#2017년-10월)
-- [2017년 9월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-09월)
-- [2017년 8월](https://github.com/jhleed/TIL/blob/master/readme.md#2017년-08월)
+- [2018년 10월](https://github.com/jhleed/TIL#2018년-10월)
+- [2018년 9월](https://github.com/jhleed/TIL#2018년-9월)
+- [2017년 10월](https://github.com/jhleed/TIL#2017년-10월)
+- [2017년 9월](https://github.com/jhleed/TIL#2017년-09월)
+- [2017년 8월](https://github.com/jhleed/TIL#2017년-08월)
 
 ## 2018년 10월
 
