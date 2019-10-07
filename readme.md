@@ -6,11 +6,18 @@
 
 ### History
 
+- [2019년 10월](https://github.com/jhleed/TIL#2019년-10월)
 - [2018년 10월](https://github.com/jhleed/TIL#2018년-10월)
 - [2018년 9월](https://github.com/jhleed/TIL#2018년-9월)
 - [2017년 10월](https://github.com/jhleed/TIL#2017년-10월)
 - [2017년 9월](https://github.com/jhleed/TIL#2017년-09월)
 - [2017년 8월](https://github.com/jhleed/TIL#2017년-08월)
+
+## 2019년 10월
+
+### ~19.10.07
+1년만에 TIL을 쓴다. 배움에 대한 기록은 `Notion`에 지나칠 꾸준히 하고 있지만 전부 Private라서 다른 곳에 공개되지 않는다. 
+타인이 볼 수 있도록 글을 쓰게 되면 좀 더 기록이 꼼꼼해지지 않을까 싶어서 다시 Github에 TIL 기록을 남기기로 한다.
 
 ## 2018년 10월
 
