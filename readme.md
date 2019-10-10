@@ -27,6 +27,10 @@
 
 목표는 내 모듈부터 시작해서 하나씩 `MSA`지향적인 구조로 바꾸는 것이다. 성공할지는 모르겠다. 하지만 시작도 안하면 100% 실패한다. 
 
+git bash를 사용하던 중 이상한 경험을 했다. 
+
+[https://www.notion.so/jhleed/Shell-Script-108c237c26cb45f9b4c12df08265f464](https://www.notion.so/jhleed/Shell-Script-108c237c26cb45f9b4c12df08265f464)
+
 ### ~19.10.07
 
 1년만에 TIL을 쓴다. 배움에 대한 기록은 `Notion`에 지나칠 꾸준히 하고 있지만 전부 Private라서 다른 곳에 공개되지 않는다.
