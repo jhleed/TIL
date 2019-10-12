@@ -27,6 +27,10 @@
 
 ![](Untitled-a272da03-dff0-46ef-8099-b0d2d87a7b79.png)
 
+- [알고 보니](https://plplim.tistory.com/3) 회사 컴퓨터와 개인 깃허브에 등록된 프로필이 달라서 발생한 문제였다.
+    - 회사 컴퓨터는 회사 프로필로 저장되어 있으니까
+- 그렇다고 회사 컴퓨터의 깃 프로필을 개인 계정으로 바꿀 수도 없고 TIL Repository 수준에서 User를 설정하는 방법을 알아봐야겠다.
+
 ### **2019.10.11**
 
 **스택오버 플로우에 [첫 질문](https://stackoverflow.com/questions/58333080/which-is-the-better-combination-spring-boot-with-kafka)을 했다.** 
