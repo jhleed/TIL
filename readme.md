@@ -21,6 +21,12 @@
 
 - 요즘 여러모로 일이 겹쳐서 스케줄이 폭주하고 있다. 그래도 작년에 비하면 훨씬 즐겁다. 기술도 새롭고 도전적이다! 힘내서 올해 마무리 잘 해야지.
 
+**TIL**
+
+- 오늘 TIL에 대한 master push를 한번 했음에도 불구하고 잔디밭에 표시가 되지 않는다! 동기화에 시간이 좀 걸리는 것인가? 딱히 잔디밭에 집착은 없지만 그래도 꽉 채우면 예쁠 것 같다. 혹시 모르지, 동기부여가 될 지도? :)
+
+![](Untitled-a272da03-dff0-46ef-8099-b0d2d87a7b79.png)
+
 ### **2019.10.11**
 
 **스택오버 플로우에 [첫 질문](https://stackoverflow.com/questions/58333080/which-is-the-better-combination-spring-boot-with-kafka)을 했다.** 
