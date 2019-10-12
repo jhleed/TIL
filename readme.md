@@ -17,7 +17,7 @@
 
 ### 2019.10.12
 
-**주말에 회사에 나와서 코딩 중**
+**주말에 회사에 나와서 코딩**
 
 - 요즘 여러모로 일이 겹쳐서 스케줄이 폭주하고 있다. 그래도 작년에 비하면 훨씬 즐겁다. 기술도 새롭고 도전적이다! 힘내서 올해 마무리 잘 해야지.
 
@@ -34,7 +34,7 @@
 
     ![](Untitled-f14068a7-5da3-4754-a6af-ab1948df6a8a.png)
 
-- 이제는 Push 할때마다 귀찮게 발생하는 `HttpRequestException encounterd` 오류를 없앨 차례다.
+- 이어서 Window OS에서 Push 할때마다 귀찮게 발생하는 `HttpRequestException encounterd` 오류를 없앴다. Git Window에서 보안 이슈가 있어 패치를 한 것이 원인이고, [깃 크리덴셜 매니저를 업데이트 해줬더니](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.14.0) 깔끔하게 해결됬다. **이제 TIL 업로드를 더 편하게 할 수 있다!**
 
 ### **2019.10.11**
 
