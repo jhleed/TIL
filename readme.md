@@ -34,6 +34,8 @@
 
     ![](Untitled-f14068a7-5da3-4754-a6af-ab1948df6a8a.png)
 
+- 이제는 Push 할때마다 귀찮게 발생하는 `HttpRequestException encounterd` 오류를 없앨 차례다.
+
 ### **2019.10.11**
 
 **스택오버 플로우에 [첫 질문](https://stackoverflow.com/questions/58333080/which-is-the-better-combination-spring-boot-with-kafka)을 했다.** 
