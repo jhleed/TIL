@@ -17,14 +17,16 @@
 
 ## 2019.10.15 (화)
 
-### HTTP3 초안이 나왔다고?
+### HTTP/3 초안이 나왔다고?
 
-- `HTTP3`의 초안이 나왔다고 해서 아웃사이더님의 [한글 번역본](https://bagder.gitbooks.io/http3-explained/ko/)을 읽어봤다. 놀랍게도 UDP위에 구현했다고 한다. 자연스럽게 **"그럼 신뢰성 보장은 어떻게 해?"** 라는 생각이 들게 되는데 **UDP 위에 새로운 계층을 추가함으로써 신뢰성 문제를 해결**했다고 한다.
+- `HTTP/3`의 초안이 나왔다고 해서 아웃사이더님의 [한글 번역본](https://bagder.gitbooks.io/http3-explained/ko/)을 읽어봤다. 놀랍게도 UDP위에 구현했다고 한다. 자연스럽게 **"그럼 신뢰성 보장은 어떻게 해?"** 라는 생각이 들게 되는데 **UDP 위에 새로운 계층을 추가함으로써 신뢰성 문제를 해결**했다고 한다.
 
 ![](Untitled-b0a03fe6-c3eb-40f7-b44a-d33d0790ff94.png)
 
-- `HTTP2`가 나온것도 얼마 안 된 것 같은데 벌써 `HTTP3`의 초안이 나왔다니 기술의 변화 속도가 빠르다는게 체감된다.
-- 그 외 읽어본 문서 : [https://www.saturnsoft.net/network/2019/03/21/quic-http3-1/](https://www.saturnsoft.net/network/2019/03/21/quic-http3-1/)
+- `HTTP/2`가 나온것도 얼마 안 된 것 같은데 벌써 `HTTP/3`의 초안이 나왔다니 기술의 변화 속도가 빠르다는게 체감된다.
+- 그 외 읽어본 문서
+    - [QUIC과 HTTP/3 - 1. UDP기반 전송 프로토콜의 대두](https://www.notion.so/jhleed/Today-I-Learned-TIL-4adb6f1f86ea4e6da8d49eb599f75b92)
+    - [HTTP/3은 왜 UDP3을 선택한 것일까?](https://evan-moon.github.io/2019/10/08/what-is-http3/)
 
 ## 2019.10.14 (월)
 
