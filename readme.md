@@ -17,6 +17,15 @@
 
 ## 2019.10.15 (화)
 
+### 클린 아키텍쳐 도입 고민
+
+- 어떻게 내 프로젝트에 클린 아키텍쳐를 도입할지 고민 중이다.
+- 인프라나 외부 세계가 확정되지 않은 상태지만, 비즈니스 로직이라도 먼저 만들고 싶다.
+- 추후에 테스트를 용이하게 하기 위함도 있다.
+- 아래 문서를 참고했다.
+    - [깃허브](https://www.notion.so/jhleed/Today-I-Learned-TIL-4adb6f1f86ea4e6da8d49eb599f75b92)
+    - [슬라이드](https://www.slideshare.net/mattiabattiston/real-life-clean-architecture-61242830)
+
 ### Spring-Kafka 적용
 
 - `spring-kafka`를 적용했다.
