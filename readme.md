@@ -17,6 +17,28 @@
 
 ## 2019.10.19 (토)
 
+### 모의 객체를 통한 인수 테스트 구축하기
+
+- `Mockito` 라이브러리 의존성 문제를 겪었고, 해결했다.
+    - [트러블 슈팅 노트](https://www.notion.so/jhleed/Mokito-java-lang-NoSuchMethodError-c64951706b1c43d296662e0e58f16121)
+
+테스트를 짜는데 자꾸 난관에 부딫친다. 
+
+- 내 설계에 뭔가 문제가 있다는 신호다. 리팩토링을 하는 것이 좋겠다.
+
+설계가 좋을수록 모의 객체를 덜 사용하고도 테스트가 가능하다. 아래 글도 참고하자.
+
+- [https://jojoldu.tistory.com/320](https://jojoldu.tistory.com/320)
+
+비즈니스 로직은 각 도메인 객체에 위임하고 서비스 레이어는 외부 레파지토리를 올바른 파라미터로 호출하는지 확인한다. (아직은 서비스에 별 비즈니스 로직이 없어서.)
+
+`Mockito`의 여러가지 사용법을 익히는 중이다. 
+
+- 미리 정해진 값을 Return하는 `Given()`
+- 의존하는 객체가 메소드를 호출하는지를 검증하는 `verify()`
+    - 해당 메소드의 파라미터를 검사하는 `ArgumentCaptor` 와`capture()`
+        - `verify`로는 넘겨주는 파라미터에 값 비교 (deep equals)이 되지 않는다. 이럴 때 `ArgumentCapture`를 쓰면 된다. → [참고 링크](https://stackoverflow.com/questions/1142837/verify-object-attribute-value-with-mockito)
+
 ## 2019.10.18 (금)
 
 ### 테스트 테스트 테스트..
