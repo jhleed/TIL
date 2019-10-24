@@ -17,15 +17,24 @@
 
 ## 2019.10.24 (목)
 
-*엄청 바쁜데, TIL을 못 적고 있다..으아.*
+아래의 사항을 복습했다.
 
-## 2019.10.23 (수)
+- 서블릿 (멀티 스레드 환경)에서의 Thread-Safe
+    - [https://jojoldu.tistory.com/118](https://jojoldu.tistory.com/118)
+    - [http://stackoverflow.com/questions/9555842/why-servlets-are-not-thread-safe/](http://stackoverflow.com/questions/9555842/why-servlets-are-not-thread-safe/)
+- 서블릿 생명주기
+- Session 생명주기
+    - Session hijacking
 
-데이터 플로우 설계 
+## ~ 2019.10.23 (수)
 
-## 2019.10.22 (화)
+테이블 모델링 및 데이터 플로우를 설계했다.
 
-테이블 모델링 및 데이터 플로우 설계
+처음에 생각했었던 것 보다 범위가 많이 커졌다.
+
+노트에 펜으로 끄적거리는 것 보다 Wiki의 Giffy Tool을 이용해서 모듈간의 데이터 흐름을 표현하니 확실히 한 눈에 들어오기도 좋고, 공유하기도 좋다.
+
+문서화의 장점을 체감했다. 
 
 ## 2019.10.21 (월)
 
@@ -39,8 +48,6 @@
 2. 과감한 리팩토링이 가능해진다. → 좋은 구조로 이어진다. → 생산성이 향상된다.
 
 그리고 심리적인 안정감 또한 큰 것 같다. 
-
-### 
 
 ## 2019.10.20 (일)
 
