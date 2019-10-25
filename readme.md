@@ -15,9 +15,23 @@
 
 # 2019년 10월
 
+## 커넥션 풀과 스레드 풀
+
+- [https://d2.naver.com/helloworld/5102792](https://d2.naver.com/helloworld/5102792)
+
+## 자바 병목 현상 분석하기 (스레드 덤프)
+
+- [https://www.slideshare.net/cc612/ch10-48277394?from_m_app=ios](https://www.slideshare.net/cc612/ch10-48277394?from_m_app=ios)
+
+## 자바스크립트에서 메모리 관리
+
+- [https://developer.mozilla.org/ko/docs/Web/JavaScript/Memory_Management](https://developer.mozilla.org/ko/docs/Web/JavaScript/Memory_Management)
+
 ## 2019.10.24 (목)
 
-아래의 사항을 복습했다.
+아래의 사항을 복습했다. 
+
+자바를 다시 쓰기 시작했으므로 기본적인 것들 중 잘못 알고 있는 것은 없는지 다시 체크해본다.
 
 - 서블릿 (멀티 스레드 환경)에서의 Thread-Safe
     - [https://jojoldu.tistory.com/118](https://jojoldu.tistory.com/118)
@@ -28,13 +42,11 @@
 
 ## ~ 2019.10.23 (수)
 
-테이블 모델링 및 데이터 플로우를 설계했다.
-
-처음에 생각했었던 것 보다 범위가 많이 커졌다.
-
-노트에 펜으로 끄적거리는 것 보다 Wiki의 Giffy Tool을 이용해서 모듈간의 데이터 흐름을 표현하니 확실히 한 눈에 들어오기도 좋고, 공유하기도 좋다.
-
-문서화의 장점을 체감했다. 
+- 며칠간 테이블 모델링, 그리고 모듈간 데이터 플로우를 설계했다.
+    - 처음에 생각했었던 것 보다 범위가 많이 커졌다.
+- 문서화의 장점을 체감했다.
+    - 노트에 펜으로 끄적거리는 것 보다 Wiki의 Giffy Tool을 이용해서 모듈간의 데이터 흐름을 표현했다.
+    - 확실히 한 눈에 들어오기도 좋고, 공유하기도 좋다.
 
 ## 2019.10.21 (월)
 
