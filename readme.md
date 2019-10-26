@@ -15,6 +15,19 @@
 
 # 2019년 10월
 
+## 2019.10.27 (일)
+
+- 멋쟁이 사자처럼 발표 연습
+
+## 2019.10.26 (토)
+
+### 실리콘밸리 top5 회사 합격 후기
+
+- [https://medium.com/@jubileekim/실리콘밸리-top5-회사-합격-후기-c50640b26eab](https://medium.com/@jubileekim/%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC-top5-%ED%9A%8C%EC%82%AC-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0-c50640b26eab)
+- 동기부여
+
+## 2019.10.25 (금)
+
 ## 커넥션 풀과 스레드 풀
 
 - [https://d2.naver.com/helloworld/5102792](https://d2.naver.com/helloworld/5102792)
