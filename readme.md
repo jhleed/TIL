@@ -26,35 +26,12 @@
 - `Optional` 은 NPE을 우아하게 방어하는 것이 목적이다.
     - `Null` 체크를 하자니 코드가 지저분해진다.
     - 함수형 언어에서 해법을 찾은 것이 바로 `Optional`
+        - 포인트는 `Null` 이라는 개념을 하나의 `Type`으로 다루는 것
 - 기존에 조건문들을 `orElse` 등의 API로 대체한다.
 - Stream과도 비슷하게 사용할 수 있다.
-- 예시
+- 예시 (Notion Markdown Export는 소스코드 주석이 안먹어서 이미지로 대체..)
 
-    //before
-    public String getCityOfMemberFromOrder(Order order) {
-    	if (order != null) {
-    		Member member = order.getMember();
-    		if (member != null) {
-    			Address address = member.getAddress();
-    			if (address != null) {
-    				String city = address.getCity();
-    				if (city != null) {
-    					return city;
-    				}
-    			}
-    		}
-    	}
-    	return "Seoul"; // default
-    }
-    
-    //after
-    public String getCityOfMemberFromOrder(Order order) {
-    	return Optional.ofNullable(order)
-    			.map(Order::getMember)
-    			.map(Member::getAddress)
-    			.map(Address::getCity)
-    			.orElse("Seoul");
-    }
+![](Untitled-fb8b6618-2e36-4a54-abe9-67cec19dae85.png)
 
 ## 2019.10.27 (일)
 
