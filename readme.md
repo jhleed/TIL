@@ -17,7 +17,46 @@
 
 ## 2019.10.28 (월)
 
-- 새 아침이 밝았다.
+### Java Optional
+
+- Java Optional에 관한 3부작 포스팅을 봤다.
+    - [자바8 Optional 1부: 빠져나올 수 없는 null 처리의 늪](https://www.daleseo.com/java8-optional-before/)
+    - [자바8 Optional 2부: null을 대하는 새로운 방법](https://www.daleseo.com/java8-optional-after/)
+    - [자바8 Optional 3부: Optional을 Optional답게](https://www.daleseo.com/java8-optional-effective/)
+- `Optional` 은 NPE을 우아하게 방어하는 것이 목적이다.
+    - `Null` 체크를 하자니 코드가 지저분해진다.
+    - 함수형 언어에서 해법을 찾은 것이 바로 `Optional`
+- 기존에 조건문들을 `orElse` 등의 API로 대체한다.
+- Stream과도 비슷하게 사용할 수 있다.
+- 예시 : (좀 극단적이긴 하지만 가독성을 잘 보여주는 듯)
+    - after
+
+        /* 주문을 한 회원이 살고 있는 도시를 반환한다 */
+        public String getCityOfMemberFromOrder(Order order) {
+        	return Optional.ofNullable(order)
+        			.map(Order::getMember)
+        			.map(Member::getAddress)
+        			.map(Address::getCity)
+        			.orElse("Seoul");
+        }
+
+    - before
+
+        public String getCityOfMemberFromOrder(Order order) {
+        	if (order != null) {
+        		Member member = order.getMember();
+        		if (member != null) {
+        			Address address = member.getAddress();
+        			if (address != null) {
+        				String city = address.getCity();
+        				if (city != null) {
+        					return city;
+        				}
+        			}
+        		}
+        	}
+        	return "Seoul"; // default
+        }
 
 ## 2019.10.27 (일)
 
