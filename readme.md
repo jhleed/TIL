@@ -28,35 +28,33 @@
     - 함수형 언어에서 해법을 찾은 것이 바로 `Optional`
 - 기존에 조건문들을 `orElse` 등의 API로 대체한다.
 - Stream과도 비슷하게 사용할 수 있다.
-- 예시 : (좀 극단적이긴 하지만 가독성을 잘 보여주는 듯)
-    - after
+- 예시
 
-        /* 주문을 한 회원이 살고 있는 도시를 반환한다 */
-        public String getCityOfMemberFromOrder(Order order) {
-        	return Optional.ofNullable(order)
-        			.map(Order::getMember)
-        			.map(Member::getAddress)
-        			.map(Address::getCity)
-        			.orElse("Seoul");
-        }
-
-    - before
-
-        public String getCityOfMemberFromOrder(Order order) {
-        	if (order != null) {
-        		Member member = order.getMember();
-        		if (member != null) {
-        			Address address = member.getAddress();
-        			if (address != null) {
-        				String city = address.getCity();
-        				if (city != null) {
-        					return city;
-        				}
-        			}
-        		}
-        	}
-        	return "Seoul"; // default
-        }
+    //before
+    public String getCityOfMemberFromOrder(Order order) {
+    	if (order != null) {
+    		Member member = order.getMember();
+    		if (member != null) {
+    			Address address = member.getAddress();
+    			if (address != null) {
+    				String city = address.getCity();
+    				if (city != null) {
+    					return city;
+    				}
+    			}
+    		}
+    	}
+    	return "Seoul"; // default
+    }
+    
+    //after
+    public String getCityOfMemberFromOrder(Order order) {
+    	return Optional.ofNullable(order)
+    			.map(Order::getMember)
+    			.map(Member::getAddress)
+    			.map(Address::getCity)
+    			.orElse("Seoul");
+    }
 
 ## 2019.10.27 (일)
 
