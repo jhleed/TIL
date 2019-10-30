@@ -30,6 +30,20 @@
     - 개발자들이 하기는 좀 짜치는(?)데, 운영 인력들이 하기에는 기술적인 지식이 필요한..
 - 재미있었다. 종종 이렇게 비즈니스적인 이해도를 높힐 수 있었으면 좋겠다.
 
+### 자바에서의 Json 직렬화
+
+- `Jackson`은 자바에서 `Json`을 직렬화 하는데 사용하는 보편적인 도구이지만, `Time Format`에 문제가 있다고 한다. 그래서 보통 `Custom Serializer`를 만드는 듯 하다.
+    - `jsonMapperJava8DateTimeModule`
+- 참고 문서
+    - [https://perfectacle.github.io/2018/01/16/jackson-local-date-time-serialize/](https://perfectacle.github.io/2018/01/16/jackson-local-date-time-serialize/)
+
+### DTO, VO
+
+- `VO(Value Object)`는 값 그대로 의미를 가지는 객체, **Read-Only**이다.
+- `DTO(Data Transfer Object)`는 **전송되는 데이터의 컨테이너**이다.
+- 참고 문서
+    - [https://ijbgo.tistory.com/9](https://ijbgo.tistory.com/9)
+
 ## 2019.10.29 (화)
 
 ### Deview 2일차 참석
