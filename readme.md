@@ -52,8 +52,8 @@
 ![](Untitled-7dc14a6c-93fe-481d-9609-d42b07dc21f2.png)
 
 - Mock을 완전히 없애보려고 했는데 쉽지 않다. void 타입 메소드가 호출됬는지를 검증하려고 하면 결국 Mock이 필요하다.
-    - 이와 관련하여 좋은 글을 발견하여 정리하고 있다.
-        - 
+    - 이와 관련하여 [좋은 글](https://medium.com/@SlackBeck/mock-object란-무엇인가-85159754b2ac)을 발견하여 정리하고 있다.
+    - [https://www.notion.so/jhleed/Testing-Void-Mock-Object-7744c5ed86b24a9ea4e59b186c5aa8c9](https://www.notion.so/jhleed/Testing-Void-Mock-Object-7744c5ed86b24a9ea4e59b186c5aa8c9)
 
 ## 2019.10.29 (화)
 
