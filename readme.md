@@ -16,7 +16,24 @@
 
 # 2019년 11월
 
+## 2019.11.07 (목)
+
 ## 2019.11.06 (수)
+
+### 테스팅에 대한 고민을 많이 했다.
+
+- 엔지니어링에서 테스팅이란, 가장 이상적인 방법보다는 현 상황에 최저의 비용으로 최대의 효과를 뽑아낼 수 있는 방법인 것 같다.
+- 언제나 읽는 [규원님의 테스팅 관련 글](https://justhackem.wordpress.com/2016/05/23/unit-integration-acceptance-and-functional-testing/amp/), 그리고 구글의 [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 라는 글이 인상적이었다.
+    - 테스팅 피라미드
+
+![](Untitled-a4d79f61-721b-40b1-89dd-d128919b1f6b.png)
+
+### 노션 정리 방식 변경
+
+- 기술 정리 방식을 기존 페이지 단위에서 아래처럼 테이블 단위로 바꿨다.
+- 제일 좋은 점은 한눈에 태그별로 정렬해서 볼 수 있다는 것
+
+![](Untitled-ff94f14c-b309-4231-9914-e352ab1391cd.png)
 
 ### 도메인 로직에 빠뜨린 부분이 있네?
 
