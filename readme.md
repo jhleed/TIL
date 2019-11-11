@@ -16,14 +16,29 @@
 
 # 2019년 11월
 
+## 2019.11.11 (월)
+
+### 사이드 프로젝트
+
+- 다시 사이드 프로젝트에 관심이 간다.. 이런 변덕쟁이.
+
+## 2019.11.10 (일)
+
+### MSSQL JDBC Fork
+
+- 지난 번 나를 헷갈리게 했던 에러 메세지를 변경하고자 Fork 했다.
+    - [바로 이 부분이다.](https://github.com/jhleed/mssql-jdbc/blob/master/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerCallableStatement.java#L1283)
+- 마이크로소프트의 오픈소스 기여자가 꼭 되고 싶다.
+
 ## 2019.11.09 (토)
 
 ### 컴주개 모임
 
 - 생산적이고 재미있었던 모임
-- RESTful에서 왜 STATELESS가 중요한지
-- SPOF에 대한 설명과 예시
+- `RESTful`에서 왜 `STATELESS`가 중요한지
+- `SPOF`에 대한 설명과 예시
 - 소켓통신에 대한 설명과 예시
+- 다음 모임에서는 기술발표에 대한 비중을 조금 더 늘려보기로 했다.
 
 ## 2019.11.08 (금)
 
