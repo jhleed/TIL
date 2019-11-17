@@ -16,7 +16,22 @@
 
 # 2019년 11월
 
+## 2019.11.17 (일)
+
+### 테스트 전략
+
+- [백기선님께서 만드신 자료](https://docs.google.com/presentation/d/1HaiVt-TNqA2wTMzjfGfzkBVgOGJIW7IH04CHNvNwbPs)를 봤다.
+    - [더 자바, 테스트](https://docs.google.com/presentation/d/1HaiVt-TNqA2wTMzjfGfzkBVgOGJIW7IH04CHNvNwbPs)
+    - [더 자바, 코드 조작](https://docs.google.com/presentation/d/1Hjps3lDy9mommRhJnW6rW-f0fHOea_8Jf4lbEUlQT-4)
+- 테스트 관련한 내용이 지금의 나에게 딱 필요한 부분이다. 상황별 테스트 전략(?)이 잘 설명되어 있다.
+- 가능한 Production 환경과 동일하게 테스트 하는 것이 좋겠다. 따라서 Docker를 이용한 테스트 방법을 공부해야겠다.
+
 ## 2019.11.16 (토)
+
+### 영어로 문서 쓰기
+
+- 영어를 더 자주 쓰기 위한 방편으로 지금 쓰고 있는 TIL을 영어로 써보려 한다.
+- 미듐에다 글을 써볼까.
 
 ### 사이드 프로젝트
 
