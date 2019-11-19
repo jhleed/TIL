@@ -18,9 +18,16 @@
 
 ## 2019.11.19 (화)
 
+### Git alias 재설정
+
+- 이전에는 가끔씩 현재 head 상위의 커밋이 안되는 현상이 있어서 git log alias를 수정했다.
+- 전보다 확실히 보기 편하다. ~~(예쁘다)~~
+
+![](Untitled-51d69a87-6cf8-49c2-ada7-353371367064.png)
+
 ### MSSQL sp_depends 이상한 점
 
-- [노션 메모](UP_AD_API_Remarketing_InsertRemarketingOperHist)
+- [노션 메모](https://www.notion.so/jhleed/MSSQL-sp_depends-SP-be65232a3e9d455b949933cb5d1114de)
 
 ## 2019.11.18 (월)
 
