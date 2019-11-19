@@ -16,7 +16,17 @@
 
 # 2019년 11월
 
+## 2019.11.19 (화)
+
+### 
+
 ## 2019.11.18 (월)
+
+### Feigh
+
+- [우아한 feign 적용기](http://woowabros.github.io/experience/2019/05/29/feign.html)를 읽었다.
+- Netflix에서 개발된 Http Client Binder로써 기존 자바에서 사용하던 `RestTemplate`을 간단하게 대체할 수 있는 녀석인 것 같다.
+- 기능 구현이 끝난 후 `Feign`으로 교체해봐야겠다.
 
 ### 프로젝트 회고록
 
