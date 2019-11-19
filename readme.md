@@ -18,7 +18,9 @@
 
 ## 2019.11.19 (화)
 
-### 
+### MSSQL sp_depends 이상한 점
+
+- [노션 메모](UP_AD_API_Remarketing_InsertRemarketingOperHist)
 
 ## 2019.11.18 (월)
 
