@@ -16,7 +16,18 @@
 
 # 2019년 11월
 
+## 2019.11.20 (금)
+
 ## 2019.11.21 (목)
+
+### Window에 Docker 설치
+
+- 진행중인 프로젝트의 인프라 MongoDB와 Redis를 Docker를 이용해서 띄워보기로 한다.
+- [설치 참고 문서](https://steemit.com/kr/@mystarlight/docker)
+
+### kafka producer - consumer 연결
+
+- 프로듀싱 했는데, 컨슈머에서 못 받아온다. 방화벽이나 포트 문제는 아닌데 어떤 문제가 있는 걸까.
 
 ## 2019.11.19 (화)
 
