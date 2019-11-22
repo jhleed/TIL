@@ -18,6 +18,12 @@
 
 ## 2019.11.20 (금)
 
+### Kafka Producer와 Producer 사이의 데이터 통신
+
+- Producer App에서 카프카 클러스터로 데이터를 넣었는데 Consumer App에는 일부만 전달되는 현상 발견
+    - 10번 쏘면 4번이 전달된다. 반복해봐도 동일하다.
+    - Topic, Partition과 관계가 있을까?
+
 ## 2019.11.21 (목)
 
 ### Window에 Docker 설치
