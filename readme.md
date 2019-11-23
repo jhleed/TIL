@@ -16,7 +16,18 @@
 
 # 2019년 11월
 
+## 2019.11.21 (토)
+
 ## 2019.11.20 (금)
+
+### Youtube 학습하기
+
+- Youtube로 아래 내용을 학습했다.
+    - how kafka works
+    - we scaled X(ex : instagram, facebook, ...)
+- youtube로 학습했을때의 장점
+    - 시각적 효과 + 음성으로 들으니 학습이 잘 된다.
+    - 영어로 기술적 표현을 사용하는 것을 자연스럽게 익힐 수 있다.
 
 ### Kafka Producer와 Producer 사이의 데이터 통신
 
