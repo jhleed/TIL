@@ -18,6 +18,17 @@
 
 ## 2019.11.21 (토)
 
+### 블로그 포스팅
+
+- 이번주에 정리한 Docker Tutorial을 블로그에 업로드 했다.
+    - [https://jhleed.tistory.com/154](https://jhleed.tistory.com/154)
+    - [https://jhleed.tistory.com/153?category=816830](https://jhleed.tistory.com/153?category=816830)
+
+### Problem Solving Repo 정리
+
+- 이전에 PS를 정리하던 CodeKata의 기존 디렉토리를 전부 제거하고, Problem Solving이라는 Repo 이름을 수정했다.
+    - [https://github.com/jhleed/Problem-Solving](https://github.com/jhleed/Problem-Solving)
+
 ## 2019.11.20 (금)
 
 ### Youtube 학습하기
