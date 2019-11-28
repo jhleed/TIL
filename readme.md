@@ -16,7 +16,13 @@
 
 # 2019년 11월
 
-## 2019.11.24 (화)
+## 2019.11.26 (목)
+
+## 2019.11.24 (수)
+
+### RN vs Flutter
+
+- [https://is.gd/xg7CB2](https://is.gd/xg7CB2)
 
 ### Markdown Upload 고생
 
@@ -24,6 +30,8 @@
 - 이로 인해 기존에 Notion Markdown Export 후 자동으로 업로드 하던 내 쉘 스크립트가 깨지게 되었다.
 - 고치긴 했는데, 잘못하면 Root에서 `rm -rf` 를 날릴 수 있는 위험한 상황이다. 방어 코드를 추가 해야겠다.
 - 참고 문서 : [if 문, for 문, while 문 사용법 및 조건식](http://www.devkuma.com/books/pages/1178)
+
+## 2019.11.23 (화)
 
 ### Stir Up 마무리
 
