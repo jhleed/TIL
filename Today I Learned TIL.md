@@ -16,11 +16,17 @@
 
 # 2019년 11월
 
+## 2019.11.28 (토)
+
+### mobaxterm 설치
+
+- 윈도우 최강 ssh client
+
 ## 2019.11.27 (금)
 
 ### MSSQL - Datasource vs MS SQL Server
 
-- 오늘 DataSource에 MSSQL을 연동해봤다. 강력했으나, 그냥 SQL Server로 돌아가기로 했다.
+- 오늘 DataSource에 `MSSQL`을 연동해봤다. 강력했으나, 그냥 SQL Server로 돌아가기로 했다.
 - 이유는 아래와 같다.
     1. 쿼리 바로가기 단축키가 없다. (이 이유가 가장 크다.)
     2. 운영 서버에서는 MS의 SQL Server를 사용해야 한다. 따라서 MS SQL Server에 익숙해지는 것이 좋을 것 같다.
