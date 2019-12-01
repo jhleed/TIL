@@ -6,6 +6,7 @@
 
 ### History
 
+- [2019년 12월](https://github.com/jhleed/TIL/tree/master#2019년-12월)
 - [2019년 11월](https://github.com/jhleed/TIL/tree/master#2019년-11월)
 - [2019년 10월](https://github.com/jhleed/TIL#2019%EB%85%84-10%EC%9B%94)
 - [2018년 10월](https://github.com/jhleed/TIL#2018%EB%85%84-10%EC%9B%94)
@@ -14,15 +15,27 @@
 - [2017년 9월](https://github.com/jhleed/TIL#2017%EB%85%84-09%EC%9B%94)
 - [2017년 8월](https://github.com/jhleed/TIL#2017%EB%85%84-08%EC%9B%94)
 
+# 2019년 12월 
+
+## 2019.12.01 (일)
+
 # 2019년 11월
 
-## 2019.11.28 (토)
+## 2019.11.30 (토)
+
+### 연구회 후배들 강의
+
+- 연구회 후배들에게 아래의 내용을 강의했다.
+    - git, github, slack, notion 의 사용법
+    - 어떤 스펙을 쌓아야 하는지?
+    - 질문과 답변
+- 유익하고 재밌는 시간이었다.
+
+## 2019.11.29 (금)
 
 ### mobaxterm 설치
 
 - 윈도우 최강 ssh client
-
-## 2019.11.27 (금)
 
 ### MSSQL - Datasource vs MS SQL Server
 
@@ -30,8 +43,6 @@
 - 이유는 아래와 같다.
     1. 쿼리 바로가기 단축키가 없다. (이 이유가 가장 크다.)
     2. 운영 서버에서는 MS의 SQL Server를 사용해야 한다. 따라서 MS SQL Server에 익숙해지는 것이 좋을 것 같다.
-
-## 2019.11.26 (목)
 
 ### 리팩토링의 충동을 억누르다.
 
@@ -43,7 +54,7 @@
 - 아래 글이 많은 도움이 되었다.
     - [Quick & Dirty - 박영록 님](http://youngrok.com/QuickAndDirty)
 
-## 2019.11.24 (수)
+## 2019.11.27 (수)
 
 ### RN vs Flutter
 
