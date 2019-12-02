@@ -76,7 +76,7 @@
 - Design Thinking 및 고객 관점의 프로덕 개발 경험을 할 수 있었던 아주 소중한 시간이었다.
 - 이후 사이드 프로젝트를 만들 때 많은 도움이 될 듯 하다.
 
-](Today%20I%20Learned%20TIL/Untitled.png)
+](img/Untitled.png)
 
 ## 2019.11.23 (월)
 
@@ -156,7 +156,7 @@
 - 이전에는 가끔씩 현재 head 상위의 커밋이 안되는 현상이 있어서 git log alias를 수정했다.
 - 전보다 확실히 보기 편하다. ~~(예쁘다)~~
 
-](Today%20I%20Learned%20TIL/Untitled%201.png)
+](img/Untitled%201.png)
 
 ### MSSQL sp_depends 이상한 점
 
@@ -272,7 +272,7 @@
 - 렌더링 안되는 폰트에 대해서 서식을 지정하는 `Fallback font` 옵션에 대해서 알게 되었다.
 - 생활코딩에 질문하니 답을 금방 찾을 수 있었다. 역시 집단지성 ..
 
-](Today%20I%20Learned%20TIL/Untitled%202.png)
+](img/Untitled%202.png)
 
 ## 2019.11.12 (화)
 
@@ -289,7 +289,7 @@
     - 다른 분들은 `sp_helpindex` 도 많이 쓰시는 듯 하니 참고하자.
 - 나는 아래와 같이 맞췄다. 또 필요한 게 생기면 추가해야지.
 
-![](Today%20I%20Learned%20TIL/Untitled%203.png)
+![](img/Untitled%203.png)
 
 ### Spring Boot & Redis 연동
 
@@ -353,7 +353,7 @@
     - `Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: '{' 근처의 구문이 잘못되었습니다.`
     - 이건 또 무슨 말인가.. 디버깅으로 넘어가는 call 값을 보니 아래와 같이 뜨던데 이게 원인인가.
 
-        ![](Today%20I%20Learned%20TIL/Untitled%204.png)
+        ![](img/Untitled%204.png)
 
     - MS의 예외 메세지는 가끔 너무 불친절하다는 느낌을 받을때가 있다.
 
