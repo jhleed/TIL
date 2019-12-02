@@ -76,7 +76,7 @@
 - Design Thinking 및 고객 관점의 프로덕 개발 경험을 할 수 있었던 아주 소중한 시간이었다.
 - 이후 사이드 프로젝트를 만들 때 많은 도움이 될 듯 하다.
 
-![Today%20I%20Learned%20TIL/Untitled.png](Today%20I%20Learned%20TIL/Untitled.png)
+](Today%20I%20Learned%20TIL/Untitled.png)
 
 ## 2019.11.23 (월)
 
@@ -156,7 +156,7 @@
 - 이전에는 가끔씩 현재 head 상위의 커밋이 안되는 현상이 있어서 git log alias를 수정했다.
 - 전보다 확실히 보기 편하다. ~~(예쁘다)~~
 
-![Today%20I%20Learned%20TIL/Untitled%201.png](Today%20I%20Learned%20TIL/Untitled%201.png)
+](Today%20I%20Learned%20TIL/Untitled%201.png)
 
 ### MSSQL sp_depends 이상한 점
 
@@ -272,7 +272,7 @@
 - 렌더링 안되는 폰트에 대해서 서식을 지정하는 `Fallback font` 옵션에 대해서 알게 되었다.
 - 생활코딩에 질문하니 답을 금방 찾을 수 있었다. 역시 집단지성 ..
 
-![Today%20I%20Learned%20TIL/Untitled%202.png](Today%20I%20Learned%20TIL/Untitled%202.png)
+](Today%20I%20Learned%20TIL/Untitled%202.png)
 
 ## 2019.11.12 (화)
 
@@ -289,7 +289,7 @@
     - 다른 분들은 `sp_helpindex` 도 많이 쓰시는 듯 하니 참고하자.
 - 나는 아래와 같이 맞췄다. 또 필요한 게 생기면 추가해야지.
 
-![Today%20I%20Learned%20TIL/Untitled%203.png](Today%20I%20Learned%20TIL/Untitled%203.png)
+](Today%20I%20Learned%20TIL/Untitled%203.png)
 
 ### Spring Boot & Redis 연동
 
@@ -353,7 +353,7 @@
     - `Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: '{' 근처의 구문이 잘못되었습니다.`
     - 이건 또 무슨 말인가.. 디버깅으로 넘어가는 call 값을 보니 아래와 같이 뜨던데 이게 원인인가.
 
-        ![Today%20I%20Learned%20TIL/Untitled%204.png](Today%20I%20Learned%20TIL/Untitled%204.png)
+        ](Today%20I%20Learned%20TIL/Untitled%204.png)
 
     - MS의 예외 메세지는 가끔 너무 불친절하다는 느낌을 받을때가 있다.
 
@@ -371,11 +371,11 @@
 - 민수의 소개로 [코덕](https://co-duck.com/)이란 서비스를 알게됬다.
 - 깃허브와 연동해서 페이스북과 같은 SNS처럼 보여주는 서비스인데 재밌다.
 
-![img/Untitled%205.png](img/Untitled%205.png)
+![](img/Untitled%205.png)
 
 - 개발 블로그랑 연동도 된다.
 
-![img/Untitled%206.png](img/Untitled%206.png)
+![](img/Untitled%206.png)
 
 ### 오픈소스
 
@@ -396,14 +396,14 @@
 - 언제나 읽는 [규원님의 테스팅 관련 글](https://justhackem.wordpress.com/2016/05/23/unit-integration-acceptance-and-functional-testing/amp/), 그리고 구글의 [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) 라는 글이 인상적이었다.
     - 테스팅 피라미드
 
-![img/Untitled%207.png](img/Untitled%207.png)
+![](img/Untitled%207.png)
 
 ### 노션 정리 방식 변경
 
 - 기술 정리 방식을 기존 페이지 단위에서 아래처럼 테이블 단위로 바꿨다.
 - 제일 좋은 점은 한눈에 태그별로 정렬해서 볼 수 있다는 것
 
-![img/Untitled%208.png](img/Untitled%208.png)
+![](img/Untitled%208.png)
 
 ### 도메인 로직에 빠뜨린 부분이 있네?
 
@@ -493,7 +493,7 @@
 - 설계를 살짝 바꿨는데 테스트가 왕창 깨졌다. 코드와 테스트의 결합이 너무 높은 것이 원인이었다.
 - 관련하여 페이스북에 아래와 같은 글을 썼다.
 
-![img/Untitled%209.png](img/Untitled%209.png)
+![](img/Untitled%209.png)
 
 - Mock을 완전히 없애보려고 했는데 쉽지 않다. void 타입 메소드가 호출됬는지를 검증하려고 하면 결국 Mock이 필요하다.
     - 이와 관련하여 [좋은 글](https://medium.com/@SlackBeck/mock-object란-무엇인가-85159754b2ac)을 발견하여 정리하고 있다.
@@ -529,7 +529,7 @@
 - Stream과도 비슷하게 사용할 수 있다.
 - 예시 (Notion Markdown Export는 소스코드 주석이 안먹어서 이미지로 대체..)
 
-![img/Untitled%2010.png](img/Untitled%2010.png)
+![](img/Untitled%2010.png)
 
 ## 2019.10.27 (일)
 
@@ -696,7 +696,7 @@
 
 ### 테스트 전략
 
-![img/Untitled%2011.png](img/Untitled%2011.png)
+![](img/Untitled%2011.png)
 
 - 그 동안 `인수 테스트(Acceptance Test)`와 `통합 테스트(Integration Test)`의 개념에 대해 오해를 가지고 있다는 사실을 깨달았다.
     - **통합 테스트**는 DB 등과 같은 외부 모듈들을 포함하여 테스트하는 것이다.
@@ -728,7 +728,7 @@
 
 - `HTTP/3`의 초안이 나왔다고 해서 아웃사이더님의 [한글 번역본](https://bagder.gitbooks.io/http3-explained/ko/)을 읽어봤다. 놀랍게도 UDP위에 구현했다고 한다. 자연스럽게 **"그럼 신뢰성 보장은 어떻게 해?"** 라는 생각이 들게 되는데 **UDP 위에 새로운 계층을 추가함으로써 신뢰성 문제를 해결**했다고 한다.
 
-![img/Untitled%2012.png](img/Untitled%2012.png)
+![](img/Untitled%2012.png)
 
 - `HTTP/2`가 나온것도 얼마 안 된 것 같은데 벌써 `HTTP/3`의 초안이 나왔다니 기술의 변화 속도가 빠르다는게 체감된다.
 - 그 외 읽어본 문서
@@ -823,14 +823,14 @@
 
 - 오늘 TIL Repo에 master push를 했음에도 불구하고 잔디밭에 표시가 되지 않는다! 동기화에 시간이 좀 걸리는 것인가? 딱히 잔디밭에 집착은 없지만 그래도 꽉 채우면 예쁠 것 같다. 혹시 모르지, 동기부여가 될 지도? :)
 
-![img/Untitled%2013.png](img/Untitled%2013.png)
+![](img/Untitled%2013.png)
 
 - [알고 보니](https://plplim.tistory.com/3) **회사 컴퓨터와 개인 깃허브에 등록된 프로필이 달라서 발생한 문제**였다.
     - 회사 컴퓨터는 회사 프로필로 저장되어 있으니까
 - 그렇다고 회사 컴퓨터의 깃 프로필을 개인 계정으로 바꿀 수도 없고 TIL Repository 수준에서 User를 설정하는 방법을 알아봐야겠다.
     - 생각보다 쉽게 해결했다. `.git/config` 파일에 user를 아래와 같이 추가해주고 Push 했더니 잔디가 잘 기록된다. 해보진 않았지만. `git config —local` 명령어로도 잘 동작할 듯?
 
-    ![img/Untitled%2014.png](img/Untitled%2014.png)
+    ![](img/Untitled%2014.png)
 
 - 이어서 Window OS에서 Push 할때마다 귀찮게 발생하는 `HttpRequestException encounterd` 오류를 없앴다. **Git Window에서 보안 이슈가 있어 패치를 한 것이 원인**이고, [깃 크리덴셜 매니저를 업데이트 해줬더니](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.14.0) 깔끔하게 해결됬다. **이제 TIL 업로드를 더 편하게 할 수 있다!**
 
