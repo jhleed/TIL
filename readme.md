@@ -289,7 +289,7 @@
     - 다른 분들은 `sp_helpindex` 도 많이 쓰시는 듯 하니 참고하자.
 - 나는 아래와 같이 맞췄다. 또 필요한 게 생기면 추가해야지.
 
-](Today%20I%20Learned%20TIL/Untitled%203.png)
+![](Today%20I%20Learned%20TIL/Untitled%203.png)
 
 ### Spring Boot & Redis 연동
 
@@ -353,7 +353,7 @@
     - `Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: '{' 근처의 구문이 잘못되었습니다.`
     - 이건 또 무슨 말인가.. 디버깅으로 넘어가는 call 값을 보니 아래와 같이 뜨던데 이게 원인인가.
 
-        ](Today%20I%20Learned%20TIL/Untitled%204.png)
+        ![](Today%20I%20Learned%20TIL/Untitled%204.png)
 
     - MS의 예외 메세지는 가끔 너무 불친절하다는 느낌을 받을때가 있다.
 
