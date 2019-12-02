@@ -76,7 +76,7 @@
 - Design Thinking 및 고객 관점의 프로덕 개발 경험을 할 수 있었던 아주 소중한 시간이었다.
 - 이후 사이드 프로젝트를 만들 때 많은 도움이 될 듯 하다.
 
-](img/Untitled.png)
+![](img/Untitled.png)
 
 ## 2019.11.23 (월)
 
@@ -156,7 +156,7 @@
 - 이전에는 가끔씩 현재 head 상위의 커밋이 안되는 현상이 있어서 git log alias를 수정했다.
 - 전보다 확실히 보기 편하다. ~~(예쁘다)~~
 
-](img/Untitled%201.png)
+![](img/Untitled%201.png)
 
 ### MSSQL sp_depends 이상한 점
 
@@ -272,7 +272,7 @@
 - 렌더링 안되는 폰트에 대해서 서식을 지정하는 `Fallback font` 옵션에 대해서 알게 되었다.
 - 생활코딩에 질문하니 답을 금방 찾을 수 있었다. 역시 집단지성 ..
 
-](img/Untitled%202.png)
+![](img/Untitled%202.png)
 
 ## 2019.11.12 (화)
 
