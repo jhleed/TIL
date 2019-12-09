@@ -21,6 +21,11 @@
 
 ### 사내 클라우드 서버에 어플리케이션 배포
 
+### 읽은 글들
+
+- [왜 JSON.parse로 객체를 선언하는 방법이 더 빠를까?](https://wormwlrm.github.io/2019/12/04/Why-JSON-parse-is-faster-than-object-literal.html)
+- [복잡한 업무 코드를 빠르게 분석하기](https://www.popit.kr/%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%97%85%EB%AC%B4-%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%B6%84%EC%84%9D%ED%95%98%EA%B8%B0/)
+
 ## 2019.12.08 (일)
 
 ### 커밋 주도 개발
