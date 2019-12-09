@@ -21,6 +21,8 @@
 
 ### 사내 클라우드 서버에 어플리케이션 배포
 
+- `OpenShift` 기반 사내 클라우드 서비스(Paas)에 처음으로 어플리케이션을 배포한다. 
+
 ### 읽은 글들
 
 - [왜 JSON.parse로 객체를 선언하는 방법이 더 빠를까?](https://wormwlrm.github.io/2019/12/04/Why-JSON-parse-is-faster-than-object-literal.html)
