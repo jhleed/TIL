@@ -17,6 +17,11 @@
 
 # 2019년 12월 
 
+## 2019.12.23 (mon)
+
+- i modify this doc using my ipad
+- korean encoding doesn't work... 
+
 ## 2019.12.22 (일)
 
 - 글쓰기와 영어가 현재 내게 가장 필요한 스킬들이라고 생각된다. 
